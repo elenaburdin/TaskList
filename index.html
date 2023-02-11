@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Listt | Project</title>
+</head>
+
+<body>
+    <main>
+        <header id="main-header">
+            <div class="container">
+                <div class="title-header">
+                    <h1>Task List</h1>
+                </div>
+                <div class="search-items">
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                    <input type="text" id="searchTask" placeholder="Search...">
+                </div>
+            </div>
+        </header>
+
+        <section id="main-section">
+            <div class="container">
+                <div class="main-card" id="card">
+                    <h2 class="title">Add Task</h2>
+                    <form id="addItems">
+                        <input type="text" name="item" id="item">
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </form>
+
+                    <h2>My Tasks</h2>
+                    <ul id="items">
+                        <li class="list-group-items">Final Design Delivery<button class="delete btn">X</button></li>
+                        <li class="list-group-items">Go To The Gym<button class="delete btn">X</button></li>
+                        <li class="list-group-items">New Project Meeting<button class="delete btn">X</button></li>
+                        <li class="list-group-items">Morning Run: 15min<button class="delete btn">X</button></li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
